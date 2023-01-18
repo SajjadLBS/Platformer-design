@@ -12,7 +12,7 @@ public class EnemyChase : MonoBehaviour
 
         if (distance < chaseRadius)
         {
-            // Move towards the player
+            // Move to player
             transform.position = Vector2.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
         }
     }
