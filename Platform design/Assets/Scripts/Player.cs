@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -44,6 +45,8 @@ public class Player : MonoBehaviour
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         gameObject.SetActive(false);
 
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
     }
 
     //Movement
