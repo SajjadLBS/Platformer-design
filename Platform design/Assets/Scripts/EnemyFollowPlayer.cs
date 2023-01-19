@@ -7,11 +7,7 @@ public class EnemyFollowPlayer : MonoBehaviour
     private Transform player;
 
     public float lineOfSight;
-    private float shootingRange;
-    public GameObject bullet;
-    public GameObject BulletParent;
-    public float fireRate = 1f;
-    private float nextFireTime;
+   
 
     void Start()
     {
@@ -20,21 +16,17 @@ public class EnemyFollowPlayer : MonoBehaviour
     void Update()
     {
         float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
-        if ( distanceFromPlayer < lineOfSight && distanceFromPlayer>shootingRange)
+        if ( distanceFromPlayer < lineOfSight)
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
         }
-        else if (distanceFromPlayer <= shootingRange && nextFireTime < Time.time)
-        {
-            Instantiate(bullet, BulletParent.transform.position, Quaternion.identity);
-            nextFireTime = Time.time + fireRate;
-        }
+       
     }
 
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, lineOfSight);
-        Gizmos.DrawWireSphere(transform.position, shootingRange);
+    
     }
 }
