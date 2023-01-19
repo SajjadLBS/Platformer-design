@@ -564,6 +564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  lineOfSight: 2.59
 --- !u!1 &177296046
 GameObject:
   m_ObjectHideFlags: 0
