@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5631c9778bde2cc48a9592bb3a0dfc56
-      internalID: -701715798
+      spriteID: 46f6ee9905af8cc4b859b5a028aa5512
+      internalID: -1053517327
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 688
-        y: 1
-        width: 336
+        y: 2
+        width: 337
         height: 353
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fa3244e94e5ffe469d6904e26254a61
-      internalID: -1771499214
+      spriteID: 72e245ec4ea9c244db3968ab3dafe3d9
+      internalID: -1823815035
       vertices: []
       indices: 
       edges: []
@@ -150,19 +150,19 @@ TextureImporter:
       name: enemy1idle.animation_4
       rect:
         serializedVersion: 2
-        x: 1036
+        x: 989
         y: 0
-        width: 329
+        width: 375
         height: 355
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 1, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4c91705bfdedaa478283980d0f2e4cf
-      internalID: -1392658495
+      spriteID: 26a2e935c2c98d4439c6cd80c59239e9
+      internalID: -954982859
       vertices: []
       indices: 
       edges: []
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0ff4caca40a3504e9e1b4a33cbbfa7a
-      internalID: 1795348099
+      spriteID: 9b879243ae02f8f4588245b369a58990
+      internalID: -1723631976
       vertices: []
       indices: 
       edges: []
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 664e57a4c6e0e3d42baa6d9819301ff3
-      internalID: -550413223
+      spriteID: b4e3c41061dfba4409e1ae2de628c47b
+      internalID: 704087167
       vertices: []
       indices: 
       edges: []
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9febf6fe6b634e4ab89c72a8c7609b5
-      internalID: -1625535789
+      spriteID: be08976357b4d9a4b9daf13a768057c9
+      internalID: -943364654
       vertices: []
       indices: 
       edges: []
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f70919d4dcedac4f89ce8edddf57224
-      internalID: 1684529172
+      spriteID: cb7c49958ee361443a0196efde5854b2
+      internalID: 1002221350
       vertices: []
       indices: 
       edges: []
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fb9c56398c314a40b0e1ad784f54b1e
-      internalID: -571609191
+      spriteID: 7abdb2bf39474624986b6bb51df40c8d
+      internalID: 532795548
       vertices: []
       indices: 
       edges: []
@@ -287,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc50e31aab1e6c94984d14f87b719599
-      internalID: -815685585
+      spriteID: 517de63c3606e4941a17355e7795d9cb
+      internalID: -1517171176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy1idle.animation_18
+      name: enemy1idle.animation_17
       rect:
         serializedVersion: 2
-        x: 1028
-        y: 21
-        width: 5
-        height: 11
+        x: 3090
+        y: 18
+        width: 6
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,8 +308,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 929111e8f9a862a43a7652a75815a8bf
-      internalID: 146914472
+      spriteID: 1f6d48fc50b699a4a835dc8a637a3e5b
+      internalID: -2126572388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy1idle.animation_19
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 0
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec94be8c429054c4c802cdb70517c4ba
+      internalID: -21927874
       vertices: []
       indices: 
       edges: []
@@ -325,26 +346,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      enemy1idle.animation_16: -815685585
-      enemy1idle.animation_18: 146914472
-      enemy1idle.animation_3: -1771499214
-      enemy1idle.animation_8: -1769407986
-      enemy1idle.animation_7: 1424238590
-      enemy1idle.animation_6: 1795348099
-      enemy1idle.animation_15: -571609191
-      enemy1idle.animation_1: -982406891
-      enemy1idle.animation_0: -159248465
-      enemy1idle.animation_17: 877447917
-      enemy1idle.animation_2: -701715798
-      enemy1idle.animation_19: -160408793
-      enemy1idle.animation_13: -1625535789
-      enemy1idle.animation_9: -1581979007
-      enemy1idle.animation_14: 1684529172
-      enemy1idle.animation_11: -550413223
-      enemy1idle.animation_5: 690694970
-      enemy1idle.animation_4: -1392658495
-      enemy1idle.animation_10: -185115838
-      enemy1idle.animation_12: 262869122
+      enemy1idle.animation_16: -1517171176
+      enemy1idle.animation_18: -1616490602
+      enemy1idle.animation_3: -1823815035
+      enemy1idle.animation_8: 848752381
+      enemy1idle.animation_7: -471488450
+      enemy1idle.animation_6: -1723631976
+      enemy1idle.animation_15: 532795548
+      enemy1idle.animation_1: -2012982464
+      enemy1idle.animation_0: 2034626639
+      enemy1idle.animation_17: -2126572388
+      enemy1idle.animation_2: -1053517327
+      enemy1idle.animation_19: -21927874
+      enemy1idle.animation_13: -943364654
+      enemy1idle.animation_9: 859084781
+      enemy1idle.animation_14: 1002221350
+      enemy1idle.animation_11: 704087167
+      enemy1idle.animation_5: -916411612
+      enemy1idle.animation_4: -954982859
+      enemy1idle.animation_10: 1440832274
+      enemy1idle.animation_12: -142100452
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1
