@@ -10,11 +10,11 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+            Player player = collision.gameObject.GetComponent<Player>();
             if (Time.time >= lastDamageTime + damageDelay)
             {
                 lastDamageTime = Time.time;
-                playerHealth.TakeDamage(damage);
+                player.TakeDamage(damage);
             }
         }
     }

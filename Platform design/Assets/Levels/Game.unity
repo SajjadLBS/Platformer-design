@@ -302,9 +302,9 @@ GameObject:
   - component: {fileID: 162975267}
   - component: {fileID: 162975270}
   - component: {fileID: 162975269}
-  - component: {fileID: 162975268}
   - component: {fileID: 162975272}
   - component: {fileID: 162975271}
+  - component: {fileID: 162975273}
   m_Layer: 0
   m_Name: Enemy 1
   m_TagString: Untagged
@@ -327,21 +327,6 @@ Transform:
   m_Father: {fileID: 780338062}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &162975268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162975266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57ec802784d38ea4792af69ae1e35490, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chaseRadius: 6
-  chaseSpeed: 4
-  player: {fileID: 1754549119}
 --- !u!114 &162975269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,6 +440,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &162975273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162975266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ef8fad91a110a4d974d808d55685bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
 --- !u!1 &177296046
 GameObject:
   m_ObjectHideFlags: 0
@@ -7516,11 +7514,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1754549119}
   - component: {fileID: 1754549118}
-  - component: {fileID: 1754549117}
   - component: {fileID: 1754549116}
   - component: {fileID: 1754549115}
-  - component: {fileID: 1754549120}
   - component: {fileID: 1754549121}
+  - component: {fileID: 1754549122}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -7575,20 +7572,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4316249, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1754549117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754549114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c69a8fa5ff250b469fd321f5288eb74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpForce: 7
 --- !u!212 &1754549118
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7656,22 +7639,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1754549120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754549114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6bb17a7857af3b42b530e6f6f4a271c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 100
-  deathDelay: 2
-  deathEffect: {fileID: 325942659}
 --- !u!95 &1754549121
 Animator:
   serializedVersion: 5
@@ -7692,6 +7659,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1754549122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754549114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a00a5741a2f41f42b6cac4af6642f94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 100
+  deathDelay: 2
+  deathEffect: {fileID: 325942659}
+  moveSpeed: 5
+  jumpForce: 7
 --- !u!1 &1875476346
 GameObject:
   m_ObjectHideFlags: 0

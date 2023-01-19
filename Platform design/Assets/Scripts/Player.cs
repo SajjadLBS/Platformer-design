@@ -1,17 +1,52 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
+
+    //Health
+    public int maxHealth = 100;
+    public int currentHealth;
+
+    public float deathDelay = 2f;
+    public GameObject deathEffect;
+
+    private float deathTime;
+
+    //Movement
+
     public float moveSpeed = 5f;
     public float jumpForce = 5f;
     private bool isJumping = false;
     private Rigidbody2D rb;
 
-    private void Start()
+    void Start()
     {
+        //Health
+        currentHealth = maxHealth;
+        //Movement
         rb = GetComponent<Rigidbody2D>();
     }
 
+    //Health
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        deathTime = Time.time;
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        gameObject.SetActive(false);
+
+    }
+
+    //Movement
     private void Update()
     {
         float moveX = Input.GetAxis("Horizontal");
@@ -23,7 +58,6 @@ public class PlayerMovement : MonoBehaviour
             isJumping = true;
         }
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
