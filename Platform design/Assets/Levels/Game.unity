@@ -1123,7 +1123,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &108827179
 GameObject:
@@ -1139,7 +1139,7 @@ GameObject:
   - component: {fileID: 108827183}
   - component: {fileID: 108827182}
   - component: {fileID: 108827181}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Robot_Enemy_1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1798,7 +1798,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 185077556}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1826,7 +1826,7 @@ Transform:
   - {fileID: 108827180}
   - {fileID: 600475177}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &203994016
 GameObject:
@@ -7388,7 +7388,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &364595679
 GameObject:
@@ -8803,7 +8803,7 @@ GameObject:
   - component: {fileID: 600475180}
   - component: {fileID: 600475179}
   - component: {fileID: 600475178}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Robot_Enemy_1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9085,7 +9085,7 @@ GameObject:
   - component: {fileID: 703879508}
   - component: {fileID: 703879507}
   - component: {fileID: 703879506}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Robot_Enemy_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9332,7 +9332,7 @@ GameObject:
   - component: {fileID: 733168218}
   - component: {fileID: 733168217}
   - component: {fileID: 733168216}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Robot_Enemy_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9583,7 +9583,7 @@ RectTransform:
   m_Children:
   - {fileID: 471669905}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -10939,7 +10939,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &968264582
 GameObject:
@@ -11177,7 +11177,7 @@ GameObject:
   - component: {fileID: 1022840242}
   - component: {fileID: 1022840241}
   - component: {fileID: 1022840240}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Robot_Enemy_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12147,7 +12147,7 @@ Transform:
   - {fileID: 246636275}
   - {fileID: 1834266457}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1208334975
 GameObject:
@@ -13117,7 +13117,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1362448175}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Backgrounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13154,7 +13154,7 @@ Transform:
   - {fileID: 833774384}
   - {fileID: 1889150088}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1370064599
 GameObject:
@@ -15030,7 +15030,7 @@ GameObject:
   - component: {fileID: 1577383054}
   - component: {fileID: 1577383056}
   - component: {fileID: 1577383055}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Robot_Enemy_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15312,7 +15312,7 @@ GameObject:
   - component: {fileID: 1584951684}
   - component: {fileID: 1584951683}
   - component: {fileID: 1584951682}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Robot_Enemy_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16171,7 +16171,7 @@ GameObject:
   - component: {fileID: 1657709489}
   - component: {fileID: 1657709488}
   - component: {fileID: 1657709487}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Robot_Enemy_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18523,7 +18523,7 @@ Transform:
   m_Children:
   - {fileID: 458792914}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2038873960
 BoxCollider2D:
