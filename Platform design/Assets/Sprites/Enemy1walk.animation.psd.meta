@@ -113,7 +113,7 @@ TextureImporter:
         width: 323
         height: 311
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,7 +134,7 @@ TextureImporter:
         width: 322
         height: 311
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,7 +155,7 @@ TextureImporter:
         width: 329
         height: 311
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,7 +176,7 @@ TextureImporter:
         width: 328
         height: 313
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,6 +184,48 @@ TextureImporter:
       bones: []
       spriteID: 7e978942de4be3e4ca4fb144182f71a5
       internalID: 1732919371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_4
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 347
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f3ef8f4e668294ebc0cd6a73faa4df
+      internalID: -976927379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_5
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 347
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8988ad889686a874aa766b77ec41cdd6
+      internalID: 1555364613
       vertices: []
       indices: 
       edges: []
@@ -197,7 +239,7 @@ TextureImporter:
         width: 332
         height: 337
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,6 +247,174 @@ TextureImporter:
       bones: []
       spriteID: 8008ba775af808848b4d3db7116c5857
       internalID: -1481757812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_7
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 339
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961bbad3d322d9d4e96f4d3ac0b59837
+      internalID: -315598766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_8
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 327
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d8b7f0fd02b414d81c2b25046d0271
+      internalID: 1856145619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_9
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 329
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e91add6c39da0a4eab6a3fbc28e9ab1
+      internalID: -221657039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_10
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 321
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2785b3ed560629b44900617e91c98610
+      internalID: 1258935826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_11
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 321
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65b868af97a20f418bde10be360d2bd
+      internalID: -350539280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_12
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 327
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1ab8165acf96a49b65a6180fd2a4ab
+      internalID: 775477072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_13
+      rect:
+        serializedVersion: 2
+        x: 3753
+        y: 339
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfca70e7c4abbd4c862cc5b037c1d00
+      internalID: -1062348025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_14
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 349
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f8b6d3c4729ad48896bd24e35fdf73
+      internalID: 1621434250
       vertices: []
       indices: 
       edges: []
@@ -218,7 +428,7 @@ TextureImporter:
         width: 355
         height: 327
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,6 +436,90 @@ TextureImporter:
       bones: []
       spriteID: 81190816ec352924198967cb519043e0
       internalID: 257885622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_16
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 345
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d6bf7640a18e841aaf087c9b282733
+      internalID: -1499905873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_17
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 321
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089945bb78d9bbf468a600548cb98988
+      internalID: 1493103089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_18
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 321
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e9b97ba6df6ca4f9690fdf08bf3f62
+      internalID: 1980020379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_19
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 321
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fcb802524740b4d83eea530bfaf496
+      internalID: -1074341508
       vertices: []
       indices: 
       edges: []
@@ -239,7 +533,7 @@ TextureImporter:
         width: 326
         height: 313
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,7 +554,7 @@ TextureImporter:
         width: 323
         height: 311
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,6 +562,27 @@ TextureImporter:
       bones: []
       spriteID: 85cd6552ffb52974897110459ae8d3a9
       internalID: 1618623438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_22
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 290
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92d1861961b398478110740c7846de9
+      internalID: -1214656617
       vertices: []
       indices: 
       edges: []
@@ -281,7 +596,7 @@ TextureImporter:
         width: 320
         height: 315
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -302,7 +617,7 @@ TextureImporter:
         width: 318
         height: 311
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -323,7 +638,7 @@ TextureImporter:
         width: 319
         height: 311
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -344,7 +659,7 @@ TextureImporter:
         width: 328
         height: 311
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -352,6 +667,258 @@ TextureImporter:
       bones: []
       spriteID: c09a6b4d9a7f46b4eb75973715c21bac
       internalID: -1194745198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_27
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 238
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd473c32b0db5a543a6f6df78f518f73
+      internalID: -73179411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_28
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 230
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e7ba914a483424cb605eae89f4a047
+      internalID: -2126391209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_29
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 230
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818ac62b123df5c42bb945c8b8d58ffd
+      internalID: 1460026880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_30
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 220
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40ec377210097549833529425e1eca4
+      internalID: -280177246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_31
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 222
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaa00d618dd8754da7791279c01c78f
+      internalID: -1904068254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_32
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 210
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b2918eac08ac4468930108b95262a2
+      internalID: -810871230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_33
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 202
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe77069184f3f2745a18c12e60ec547e
+      internalID: -878699964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_34
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 202
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5c05d98651e334593ac97f78bee305
+      internalID: 444040878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_35
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 65
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eec585d318f06847bb07e22793fdfca
+      internalID: 1018652686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_36
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 61
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ba6ecbce873f74bafb69bafb6ae9df
+      internalID: -337883191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_37
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 30
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7073fc863d522a44eb66de56aa980b42
+      internalID: 1508758644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1walk.animation_38
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 0
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540001315d9ffbd4c8083141724b9fe4
+      internalID: 1495747983
       vertices: []
       indices: 
       edges: []
