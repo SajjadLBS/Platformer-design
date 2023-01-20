@@ -15685,6 +15685,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   attackDamage: 40
+  attackRate: 2
 --- !u!114 &2038873955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15701,8 +15702,8 @@ MonoBehaviour:
   currentHealth: 100
   deathDelay: 2
   deathEffect: {fileID: 0}
-  moveSpeed: 10
-  jumpForce: 7
+  moveSpeed: 15
+  jumpForce: 15
 --- !u!50 &2038873956
 Rigidbody2D:
   serializedVersion: 4
