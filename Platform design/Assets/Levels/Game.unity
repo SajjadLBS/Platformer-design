@@ -14554,7 +14554,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20.764624, y: 21.0625}
+    oldSize: {x: 22.852734, y: 22.125}
     newSize: {x: 22.852734, y: 22.125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -17815,7 +17815,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.9056604, g: 0.5502314, b: 0.5502314, a: 0}
+  m_BackGroundColor: {r: 0.18823531, g: 0.18823531, b: 0.18823531, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
