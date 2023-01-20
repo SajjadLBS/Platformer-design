@@ -2,20 +2,64 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int damage = 1;
-    public float damageDelay = 1f;
-    private float lastDamageTime;
+    //Enemy Follow
+    public float speed;
+    private Transform player;
+    public float lineOfSight;
+    //Enemy Health
+    public int maxHealth = 100;
+    int currentHealth;
+   
 
-    private void OnCollisionStay2D(Collision2D collision)
+    void Start()
     {
-        if (collision.gameObject.CompareTag("Player"))
+
+        //Enemy Follow
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        //Enemy Health
+        currentHealth = maxHealth;
+
+    }
+
+    //Enemy Health
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        if(currentHealth <= 0)
         {
-            Player player = collision.gameObject.GetComponent<Player>();
-            if (Time.time >= lastDamageTime + damageDelay)
-            {
-                lastDamageTime = Time.time;
-                player.TakeDamage(damage);
-            }
+            Die();
         }
+
+    }
+    //Enemy Health
+
+    void Die()
+    {
+        Debug.Log("Enemy Died!");
+
+        //Disable Enemy
+
+    }
+
+
+
+    void Update()
+    {
+        //Enemy Follow
+        float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
+        if ( distanceFromPlayer < lineOfSight)
+        {
+            transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
+        }
+       
+    }
+    
+    //Enemy Follow
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, lineOfSight);
+    
     }
 }
