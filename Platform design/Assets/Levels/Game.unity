@@ -13186,6 +13186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cebaade37774054b8c3d9e0b0d37e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1577383051}
   speed: 6
   lineOfSight: 194.45
   maxHealth: 100

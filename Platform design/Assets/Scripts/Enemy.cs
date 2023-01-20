@@ -1,7 +1,8 @@
-using UnityEngine;
+ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public Animator animator;
     //Enemy Follow
     public float speed;
     private Transform player;
@@ -25,6 +26,7 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        animator.SetTrigger("hurt");
 
         if(currentHealth <= 0)
         {
@@ -37,7 +39,10 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         Debug.Log("Enemy Died!");
-
+        animator.SetBool("IsDead",true);
+        GetComponent<Collider2D>().enabled = false;
+        this.enabled = false;
+        
         //Disable Enemy
 
     }
