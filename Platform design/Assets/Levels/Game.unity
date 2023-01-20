@@ -13080,7 +13080,7 @@ GameObject:
   - component: {fileID: 1577383054}
   - component: {fileID: 1577383056}
   - component: {fileID: 1577383055}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Robot_Enemy_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15683,6 +15683,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
+  attackDamage: 40
 --- !u!114 &2038873955
 MonoBehaviour:
   m_ObjectHideFlags: 0
