@@ -15,8 +15,8 @@ public class Player : MonoBehaviour
     private float deathTime;
 
     //Movement
-
-    public float moveSpeed = 5f;
+    float horizontalMove = 0f;
+    public float Speed = 5f;
     public float jumpForce = 5f;
     private bool isJumping = false;
     private Rigidbody2D rb;
@@ -53,9 +53,11 @@ public class Player : MonoBehaviour
     //Movement
     private void Update()
     {
+        
         float moveX = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveX * moveSpeed, rb.velocity.y);
-
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        rb.velocity = new Vector2(moveX * Speed, rb.velocity.y);
+        
         if (Input.GetButtonDown("Jump") && !isJumping)
         {
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);

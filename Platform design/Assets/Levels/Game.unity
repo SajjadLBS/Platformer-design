@@ -24677,8 +24677,8 @@ MonoBehaviour:
   currentHealth: 100
   deathDelay: 2
   deathEffect: {fileID: 0}
-  moveSpeed: 10
-  jumpForce: 7
+  Speed: 15
+  jumpForce: 15
 --- !u!50 &2038873956
 Rigidbody2D:
   serializedVersion: 4
@@ -24805,7 +24805,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.002198, y: 22.1875}
+    oldSize: {x: 4.625, y: 15.3125}
     newSize: {x: 2.2505496, y: 5.546875}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -25306,7 +25306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094995375}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -80.07668, y: 7.081018, z: -6.210007}
+  m_LocalPosition: {x: -128.6, y: -39.8, z: -6.210007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
